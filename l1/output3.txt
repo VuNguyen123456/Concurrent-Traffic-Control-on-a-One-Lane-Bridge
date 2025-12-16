@@ -1,0 +1,332 @@
+How many groups of vehicles do you want to simulate? Enter number of vehicles in group 1: Enter Car probability (0.0–1.0): Enter Northbound probability (0.0–1.0): 
+
+Vehicle #29 (Northbound, Type: Car) arrived.
+Vehicle #19 (Northbound, Type: Truck) arrived.
+Vehicle #0 (Southbound, Type: Car) arrived.
+Vehicle #0 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 100
+[ Vehicle #0 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #29 (Type: Car) is waiting in the North queue. |  Vehicle #19 (Type: Truck) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): []
+Vehicle #1 (Southbound, Type: Truck) arrived.
+Vehicle #1 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 300
+[ Vehicle #0 (Type: Car) is on the bridge (South). |  Vehicle #1 (Type: Truck) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #29 (Type: Car) is waiting in the North queue. |  Vehicle #19 (Type: Truck) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): []
+Vehicle #2 (Southbound, Type: Car) arrived.
+Vehicle #2 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 400
+[ Vehicle #0 (Type: Car) is on the bridge (South). |  Vehicle #1 (Type: Truck) is on the bridge (South). |  Vehicle #2 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #29 (Type: Car) is waiting in the North queue. |  Vehicle #19 (Type: Truck) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): []
+Vehicle #3 (Northbound, Type: Car) arrived.
+Vehicle #4 (Southbound, Type: Car) arrived.
+Vehicle #4 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 500
+[ Vehicle #0 (Type: Car) is on the bridge (South). |  Vehicle #1 (Type: Truck) is on the bridge (South). |  Vehicle #2 (Type: Car) is on the bridge (South). |  Vehicle #4 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #29 (Type: Car) is waiting in the North queue. |  Vehicle #19 (Type: Truck) is waiting in the North queue. |  Vehicle #3 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): []
+Vehicle #5 (Southbound, Type: Car) arrived.
+Vehicle #5 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 600
+[ Vehicle #0 (Type: Car) is on the bridge (South). |  Vehicle #1 (Type: Truck) is on the bridge (South). |  Vehicle #2 (Type: Car) is on the bridge (South). |  Vehicle #4 (Type: Car) is on the bridge (South). |  Vehicle #5 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #29 (Type: Car) is waiting in the North queue. |  Vehicle #19 (Type: Truck) is waiting in the North queue. |  Vehicle #3 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): []
+Vehicle #6 (Southbound, Type: Car) arrived.
+Vehicle #6 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 700
+[ Vehicle #0 (Type: Car) is on the bridge (South). |  Vehicle #1 (Type: Truck) is on the bridge (South). |  Vehicle #2 (Type: Car) is on the bridge (South). |  Vehicle #4 (Type: Car) is on the bridge (South). |  Vehicle #5 (Type: Car) is on the bridge (South). |  Vehicle #6 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #29 (Type: Car) is waiting in the North queue. |  Vehicle #19 (Type: Truck) is waiting in the North queue. |  Vehicle #3 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): []
+Vehicle #7 (Northbound, Type: Car) arrived.
+Vehicle #8 (Southbound, Type: Car) arrived.
+Vehicle #9 (Southbound, Type: Car) arrived.
+Vehicle #10 (Northbound, Type: Car) arrived.
+Vehicle #11 (Southbound, Type: Car) arrived.
+Vehicle #12 (Southbound, Type: Car) arrived.
+Vehicle #13 (Southbound, Type: Truck) arrived.
+Vehicle #21 (Southbound, Type: Truck) arrived.
+Vehicle #15 (Southbound, Type: Car) arrived.
+Vehicle #16 (Southbound, Type: Car) arrived.
+Vehicle #17 (Northbound, Type: Truck) arrived.
+Vehicle #18 (Southbound, Type: Car) arrived.
+Vehicle #29 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 800
+[ Vehicle #0 (Type: Car) is on the bridge (South). |  Vehicle #1 (Type: Truck) is on the bridge (South). |  Vehicle #2 (Type: Car) is on the bridge (South). |  Vehicle #4 (Type: Car) is on the bridge (South). |  Vehicle #5 (Type: Car) is on the bridge (South). |  Vehicle #6 (Type: Car) is on the bridge (South). |  Vehicle #29 (Type: Car) is on the bridge (North). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #19 (Type: Truck) is waiting in the North queue. |  Vehicle #3 (Type: Car) is waiting in the North queue. |  Vehicle #7 (Type: Car) is waiting in the North queue. |  Vehicle #10 (Type: Car) is waiting in the North queue. |  Vehicle #17 (Type: Truck) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #8 (Type: Car) is waiting in the South queue. |  Vehicle #9 (Type: Car) is waiting in the South queue. |  Vehicle #11 (Type: Car) is waiting in the South queue. |  Vehicle #12 (Type: Car) is waiting in the South queue. |  Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. | ]
+Vehicle #14 (Northbound, Type: Car) arrived.
+Vehicle #22 (Northbound, Type: Car) arrived.
+Vehicle #23 (Northbound, Type: Car) arrived.
+Vehicle #24 (Southbound, Type: Car) arrived.
+Vehicle #25 (Southbound, Type: Truck) arrived.
+Vehicle #26 (Southbound, Type: Car) arrived.
+Vehicle #27 (Northbound, Type: Car) arrived.
+Vehicle #28 (Southbound, Type: Car) arrived.
+Vehicle #20 (Southbound, Type: Car) arrived.
+
+Vehicle #29 exited the bridge. Total Weight: 700
+
+Vehicle #0 exited the bridge. Total Weight: 600
+
+Vehicle #1 exited the bridge. Total Weight: 400
+
+Vehicle #2 exited the bridge. Total Weight: 300
+
+Vehicle #4 exited the bridge. Total Weight: 200
+
+Vehicle #5 exited the bridge. Total Weight: 100
+
+Vehicle #6 exited the bridge. Total Weight: 0
+Vehicle #19 is now crossing the bridge.
+
+Vehicles on the bridge: Going North; Total Weight: 200
+[ Vehicle #19 (Type: Truck) is on the bridge (North). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #3 (Type: Car) is waiting in the North queue. |  Vehicle #7 (Type: Car) is waiting in the North queue. |  Vehicle #10 (Type: Car) is waiting in the North queue. |  Vehicle #17 (Type: Truck) is waiting in the North queue. |  Vehicle #14 (Type: Car) is waiting in the North queue. |  Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #8 (Type: Car) is waiting in the South queue. |  Vehicle #9 (Type: Car) is waiting in the South queue. |  Vehicle #11 (Type: Car) is waiting in the South queue. |  Vehicle #12 (Type: Car) is waiting in the South queue. |  Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #3 is now crossing the bridge.
+
+Vehicles on the bridge: Going North; Total Weight: 300
+[ Vehicle #19 (Type: Truck) is on the bridge (North). |  Vehicle #3 (Type: Car) is on the bridge (North). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #7 (Type: Car) is waiting in the North queue. |  Vehicle #10 (Type: Car) is waiting in the North queue. |  Vehicle #17 (Type: Truck) is waiting in the North queue. |  Vehicle #14 (Type: Car) is waiting in the North queue. |  Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #8 (Type: Car) is waiting in the South queue. |  Vehicle #9 (Type: Car) is waiting in the South queue. |  Vehicle #11 (Type: Car) is waiting in the South queue. |  Vehicle #12 (Type: Car) is waiting in the South queue. |  Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #7 is now crossing the bridge.
+
+Vehicles on the bridge: Going North; Total Weight: 400
+[ Vehicle #19 (Type: Truck) is on the bridge (North). |  Vehicle #3 (Type: Car) is on the bridge (North). |  Vehicle #7 (Type: Car) is on the bridge (North). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #10 (Type: Car) is waiting in the North queue. |  Vehicle #17 (Type: Truck) is waiting in the North queue. |  Vehicle #14 (Type: Car) is waiting in the North queue. |  Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #8 (Type: Car) is waiting in the South queue. |  Vehicle #9 (Type: Car) is waiting in the South queue. |  Vehicle #11 (Type: Car) is waiting in the South queue. |  Vehicle #12 (Type: Car) is waiting in the South queue. |  Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #10 is now crossing the bridge.
+
+Vehicles on the bridge: Going North; Total Weight: 500
+[ Vehicle #19 (Type: Truck) is on the bridge (North). |  Vehicle #3 (Type: Car) is on the bridge (North). |  Vehicle #7 (Type: Car) is on the bridge (North). |  Vehicle #10 (Type: Car) is on the bridge (North). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #17 (Type: Truck) is waiting in the North queue. |  Vehicle #14 (Type: Car) is waiting in the North queue. |  Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #8 (Type: Car) is waiting in the South queue. |  Vehicle #9 (Type: Car) is waiting in the South queue. |  Vehicle #11 (Type: Car) is waiting in the South queue. |  Vehicle #12 (Type: Car) is waiting in the South queue. |  Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+
+Vehicle #10 exited the bridge. Total Weight: 400
+
+Vehicle #19 exited the bridge. Total Weight: 200
+
+Vehicle #3 exited the bridge. Total Weight: 100
+
+Vehicle #7 exited the bridge. Total Weight: 0
+Vehicle #17 is now crossing the bridge.
+
+Vehicles on the bridge: Going North; Total Weight: 200
+[ Vehicle #17 (Type: Truck) is on the bridge (North). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #14 (Type: Car) is waiting in the North queue. |  Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #8 (Type: Car) is waiting in the South queue. |  Vehicle #9 (Type: Car) is waiting in the South queue. |  Vehicle #11 (Type: Car) is waiting in the South queue. |  Vehicle #12 (Type: Car) is waiting in the South queue. |  Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #14 is now crossing the bridge.
+
+Vehicles on the bridge: Going North; Total Weight: 300
+[ Vehicle #17 (Type: Truck) is on the bridge (North). |  Vehicle #14 (Type: Car) is on the bridge (North). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #8 (Type: Car) is waiting in the South queue. |  Vehicle #9 (Type: Car) is waiting in the South queue. |  Vehicle #11 (Type: Car) is waiting in the South queue. |  Vehicle #12 (Type: Car) is waiting in the South queue. |  Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+
+Vehicle #14 exited the bridge. Total Weight: 200
+
+Vehicle #17 exited the bridge. Total Weight: 0
+Vehicle #8 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 100
+[ Vehicle #8 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #9 (Type: Car) is waiting in the South queue. |  Vehicle #11 (Type: Car) is waiting in the South queue. |  Vehicle #12 (Type: Car) is waiting in the South queue. |  Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #9 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 200
+[ Vehicle #8 (Type: Car) is on the bridge (South). |  Vehicle #9 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #11 (Type: Car) is waiting in the South queue. |  Vehicle #12 (Type: Car) is waiting in the South queue. |  Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #11 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 300
+[ Vehicle #8 (Type: Car) is on the bridge (South). |  Vehicle #9 (Type: Car) is on the bridge (South). |  Vehicle #11 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #12 (Type: Car) is waiting in the South queue. |  Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #12 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 400
+[ Vehicle #8 (Type: Car) is on the bridge (South). |  Vehicle #9 (Type: Car) is on the bridge (South). |  Vehicle #11 (Type: Car) is on the bridge (South). |  Vehicle #12 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #13 (Type: Truck) is waiting in the South queue. |  Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #13 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 600
+[ Vehicle #8 (Type: Car) is on the bridge (South). |  Vehicle #9 (Type: Car) is on the bridge (South). |  Vehicle #11 (Type: Car) is on the bridge (South). |  Vehicle #12 (Type: Car) is on the bridge (South). |  Vehicle #13 (Type: Truck) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #21 (Type: Truck) is waiting in the South queue. |  Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+
+Vehicle #13 exited the bridge. Total Weight: 400
+
+Vehicle #9 exited the bridge. Total Weight: 300
+
+Vehicle #8 exited the bridge. Total Weight: 200
+
+Vehicle #11 exited the bridge. Total Weight: 100
+
+Vehicle #12 exited the bridge. Total Weight: 0
+Vehicle #21 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 200
+[ Vehicle #21 (Type: Truck) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #22 (Type: Car) is waiting in the North queue. |  Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+
+Vehicle #21 exited the bridge. Total Weight: 0
+Vehicle #22 is now crossing the bridge.
+
+Vehicles on the bridge: Going North; Total Weight: 100
+[ Vehicle #22 (Type: Car) is on the bridge (North). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #23 (Type: Car) is waiting in the North queue. |  Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #23 is now crossing the bridge.
+
+Vehicles on the bridge: Going North; Total Weight: 200
+[ Vehicle #22 (Type: Car) is on the bridge (North). |  Vehicle #23 (Type: Car) is on the bridge (North). | ]
+	
+Waiting vehicles (Northbound): [ Vehicle #27 (Type: Car) is waiting in the North queue. | ]
+
+Waiting vehicles (Southbound): [ Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+
+Vehicle #23 exited the bridge. Total Weight: 100
+Vehicle #27 is now crossing the bridge.
+
+Vehicles on the bridge: Going North; Total Weight: 200
+[ Vehicle #22 (Type: Car) is on the bridge (North). |  Vehicle #27 (Type: Car) is on the bridge (North). | ]
+	
+Waiting vehicles (Northbound): []
+
+Waiting vehicles (Southbound): [ Vehicle #15 (Type: Car) is waiting in the South queue. |  Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+
+Vehicle #22 exited the bridge. Total Weight: 100
+
+Vehicle #27 exited the bridge. Total Weight: 0
+Vehicle #15 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 100
+[ Vehicle #15 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): []
+
+Waiting vehicles (Southbound): [ Vehicle #16 (Type: Car) is waiting in the South queue. |  Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+
+Vehicle #15 exited the bridge. Total Weight: 0
+Vehicle #16 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 100
+[ Vehicle #16 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): []
+
+Waiting vehicles (Southbound): [ Vehicle #18 (Type: Car) is waiting in the South queue. |  Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #18 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 200
+[ Vehicle #16 (Type: Car) is on the bridge (South). |  Vehicle #18 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): []
+
+Waiting vehicles (Southbound): [ Vehicle #24 (Type: Car) is waiting in the South queue. |  Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+
+Vehicle #18 exited the bridge. Total Weight: 100
+
+Vehicle #16 exited the bridge. Total Weight: 0
+Vehicle #24 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 100
+[ Vehicle #24 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): []
+
+Waiting vehicles (Southbound): [ Vehicle #25 (Type: Truck) is waiting in the South queue. |  Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #25 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 300
+[ Vehicle #24 (Type: Car) is on the bridge (South). |  Vehicle #25 (Type: Truck) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): []
+
+Waiting vehicles (Southbound): [ Vehicle #26 (Type: Car) is waiting in the South queue. |  Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+
+Vehicle #25 exited the bridge. Total Weight: 100
+
+Vehicle #24 exited the bridge. Total Weight: 0
+Vehicle #26 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 100
+[ Vehicle #26 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): []
+
+Waiting vehicles (Southbound): [ Vehicle #28 (Type: Car) is waiting in the South queue. |  Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+Vehicle #28 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 200
+[ Vehicle #26 (Type: Car) is on the bridge (South). |  Vehicle #28 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): []
+
+Waiting vehicles (Southbound): [ Vehicle #20 (Type: Car) is waiting in the South queue. | ]
+
+Vehicle #28 exited the bridge. Total Weight: 100
+
+Vehicle #26 exited the bridge. Total Weight: 0
+Vehicle #20 is now crossing the bridge.
+
+Vehicles on the bridge: Going South; Total Weight: 100
+[ Vehicle #20 (Type: Car) is on the bridge (South). | ]
+	
+Waiting vehicles (Northbound): []
+
+Waiting vehicles (Southbound): []
+
+Vehicle #20 exited the bridge. Total Weight: 0
