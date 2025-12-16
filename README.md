@@ -2,7 +2,7 @@
 
 This project implements a **concurrent traffic control system** in Go that simulates vehicles crossing an imaginary **one-lane bridge**. Each vehicle is modeled as a **goroutine**, and synchronization is enforced using **mutex locks and condition variables** to guarantee safety, fairness, and efficiency.
 
-The goal is to gain hands-on experience with **concurrent programming**, **thread synchronization**, and **condition variables** using Go.
+The purpose of this project is to gain hands-on experience with **concurrent programming**, **thread synchronization**, and **condition variables** in Go, while modeling a realistic shared-resource problem.
 
 ---
 
@@ -11,8 +11,8 @@ The goal is to gain hands-on experience with **concurrent programming**, **threa
 The bridge supports traffic traveling in **two directions** (northbound and southbound) but has only **one lane**, meaning traffic may flow in **only one direction at a time**.
 
 Vehicles consist of:
-- **Cars** (weight = 100)
-- **Trucks** (weight = 200)
+- **Cars** (weight = 100 units)
+- **Trucks** (weight = 200 units)
 
 Each vehicle takes **2 seconds** to cross the bridge.
 
@@ -20,13 +20,13 @@ Each vehicle takes **2 seconds** to cross the bridge.
 
 ## Bridge Restrictions
 
-The system must enforce the following safety constraints:
+The system enforces the following safety constraints:
 
-- **R1 – Direction Restriction:**  
-  Vehicles may only cross in one direction at a time (to prevent collisions).
+- **R1 – Direction Restriction**  
+  Vehicles may cross the bridge in only one direction at a time to prevent collisions.
 
-- **R2 – Weight Restriction:**  
-  The total weight of vehicles on the bridge must not exceed **750 units** (to prevent collapse).
+- **R2 – Weight Restriction**  
+  The total weight of vehicles on the bridge must not exceed **750 units** at any time to prevent collapse.
 
 Violating either restriction is considered a system failure.
 
@@ -36,69 +36,58 @@ Violating either restriction is considered a system failure.
 
 The bridge controller enforces the following policies:
 
-- **P1 – Direction Priority:**  
-  Once traffic starts flowing in one direction, newly arriving vehicles in the same direction are prioritized.
+- **P1 – Direction Priority**  
+  Once traffic begins flowing in one direction, newly arriving vehicles traveling in the same direction are prioritized.
 
-- **P2 – Fairness:**  
-  If vehicles are waiting on one side, **no more than 6 consecutive vehicles** may cross from the opposite side before allowing the waiting side to proceed.
+- **P2 – Fairness**  
+  If vehicles are waiting on one side of the bridge, **no more than 6 consecutive vehicles** may cross from the opposite direction before allowing the waiting side to proceed.
 
-- **P3 – Maximum Utilization:**  
-  Subject to safety and fairness, the bridge capacity must be fully utilized when traffic is available.  
+- **P3 – Maximum Utilization**  
+  Subject to safety and fairness constraints, the bridge should be fully utilized whenever traffic is available.  
   Deadlocks must be avoided.
 
-- **P4 – FIFO Queuing:**  
-  Vehicles queue in arrival order on each side and must enter the bridge in that same order.  
-  If a truck at the head of the queue cannot enter due to weight limits, vehicles behind it must also wait.
+- **P4 – FIFO Queuing**  
+  Vehicles queue in arrival order on each side of the bridge and must enter the bridge in that same order.  
+  If a truck at the head of a queue cannot enter due to weight limits, vehicles behind it must also wait.
 
 ---
 
 ## Concurrency Model
-
 Each vehicle is represented by a **goroutine** executing the following lifecycle:
 
-```go
-OneVehicle(vehicleID, vehicleType, direction) {
-    Arrive()
-    Cross()
-
-Function Responsibilities
-
+OneVehicle(vehicleID, vehicleType, direction):
 Arrive()
-
-Blocks until it is safe to enter the bridge
-
-Enforces all restrictions and policies
-
-Uses mutex locks and condition variables
-
 Cross()
-
-Simulates crossing the bridge by sleeping for 2 seconds
-
 Leave()
 
-Updates shared state
 
-Signals waiting vehicles when appropriate
+### Function Responsibilities
 
-All shared state is protected inside critical sections, and busy waiting is strictly avoided.
-    Leave()
-}
+**Arrive()**
+- Blocks until it is safe for the vehicle to enter the bridge
+- Enforces all restrictions and traffic control policies
+- Uses mutex locks and condition variables
 
-Output and Logging
+**Cross()**
+- Simulates crossing the bridge by sleeping for 2 seconds
+
+**Leave()**
+- Updates shared state
+- Signals waiting vehicles when appropriate
+
+All shared state is accessed only inside **critical sections**, and **busy waiting is strictly avoided**.
+
+---
+
+## Output and Logging
 
 The program prints detailed runtime information, including:
+- Vehicle arrivals and departures
+- Vehicles currently crossing the bridge
+- Total weight on the bridge
+- Waiting queues on both sides, displayed in FIFO order
 
-Vehicle arrivals and departures
-
-Vehicles currently crossing the bridge
-
-Total weight on the bridge
-
-Waiting queues on both sides (in order)
-
-Example output format:
-
+Example output:
 Vehicle #5 (Northbound, Type: Car) arrived.
 Vehicle #5 is now crossing the bridge.
 Vehicles on the bridge: [#3 (Northbound, Truck), #5 (Northbound, Car)]
@@ -106,69 +95,59 @@ Total Weight: 300
 Waiting vehicles (Southbound): [#7 (Truck), #8 (Car)]
 Vehicle #5 exited the bridge.
 
-Arrival Schedules
+---
 
-The program is executed under five predefined arrival schedules, each with different traffic patterns and delays.
-Each schedule introduces 30 vehicles total, with randomized direction and vehicle type based on given probabilities.
+## Arrival Schedules
 
-Examples include:
+The program is executed using **five predefined arrival schedules**, each with different traffic patterns and delays.
 
-Car-only traffic
+- Each schedule introduces **30 vehicles total**
+- Vehicle direction is chosen with **equal probability** (50% northbound, 50% southbound)
+- Vehicle type (car or truck) is determined using schedule-specific probabilities
 
-Truck-heavy traffic
-
-Bursty arrivals with delays
-
-Mixed traffic patterns
-
-Vehicle direction is chosen with equal probability (50% northbound, 50% southbound).
-
-Implementation Constraints
-
-Language: Go
-
-Synchronization:
-
-sync.Mutex
-
-sync.Cond
-
-Only Signal() is allowed for waking goroutines (Broadcast() is prohibited)
-
-No busy waiting
-
-All shared variables accessed only within critical sections
-
-FIFO order must be preserved despite Go’s nondeterministic scheduling
-
-Learning Objectives
-
-This project demonstrates:
-
-Practical use of mutexes and condition variables
-
-Correct handling of concurrency and fairness
-
-Avoidance of deadlocks and starvation
-
-Designing concurrent systems under realistic constraints
-
-Modeling real-world resource contention with goroutines
-
-References
-
-Go Concurrency Documentation
-
-Operating Systems: Three Easy Pieces (Chapters 25–30)
-
-Go sync and time packages
-
-Notes
-
-Due to nondeterministic thread scheduling in Go:
-
-Vehicles may not execute or exit in creation order
-
-Correctness is defined by policy enforcement, not execution order
+Traffic patterns include:
+- Car-only traffic
+- Truck-heavy traffic
+- Bursty arrivals with delays
+- Mixed traffic workloads
 
 ---
+
+## Implementation Constraints
+
+- **Language:** Go
+- **Synchronization Mechanisms:**
+  - `sync.Mutex`
+  - `sync.Cond`
+- Only `Signal()` may be used to wake blocked goroutines (`Broadcast()` is prohibited)
+- Busy waiting is not allowed
+- All shared variables are accessed only within critical sections
+- FIFO ordering must be preserved despite Go’s nondeterministic scheduling
+
+---
+
+## Learning Objectives
+
+This project demonstrates:
+- Practical use of **mutexes and condition variables**
+- Safe and fair concurrent resource management
+- Avoidance of **deadlocks and starvation**
+- Designing concurrent systems under strict constraints
+- Modeling real-world contention using goroutines
+
+---
+
+## References
+
+- Go Concurrency Documentation  
+- *Operating Systems: Three Easy Pieces*, Chapters 25–30  
+- Go `sync` and `time` packages  
+
+---
+
+## Notes
+
+Due to nondeterministic goroutine scheduling in Go:
+- Vehicles may not execute or exit in creation order
+- Correctness is defined by policy enforcement, not execution order
+
